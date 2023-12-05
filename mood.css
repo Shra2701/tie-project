@@ -1,0 +1,87 @@
+body {
+    background-image: url('html3.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.mood {
+    margin-top: 10%;
+    margin-left: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    color: rgb(197, 134, 70)
+}
+
+.happy {
+    width: 150px;
+    height: 150px;
+    margin-inline-end: 30px;
+    transition: width 2s, height 2s;
+    background-image: url('33.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+
+}
+
+.happy:hover {
+    background-image: url('happy2.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.sad {
+    margin-top: 5%;
+    margin-inline-end: 30px;
+    width: 150px;
+    height: 150px;
+    transition: width 2s, height 2s;
+    background-image: url('11.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.sad:hover {
+    background-image: url('sad3.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.calm {
+
+    width: 150px;
+    height: 150px;
+    margin-inline-end: 30px;
+    transition: width 2s, height 2s;
+    background-image: url('22.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.calm:hover {
+    background-image: url('calm3.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.energy {
+    width: 150px;
+    height: 150px;
+    transition: width 2s, height 2s;
+    background-image: url('44.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.energy:hover {
+    background-image: url('energy22.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
